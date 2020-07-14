@@ -41,7 +41,7 @@ client.login('token');
 ## Links
 * [Sigma.js Discord server](https://discord.gg/yJp2wTH)
 * [Discord API Discord server](https://discord.gg/discord-api)
-* [GitHub](https://github.com/hamster-0001/sigma.js)
+* [GitHub](https://github.com/Hamster-0001/sigma.js-1.0.0/)
 * [Related libraries](https://discordapi.com/unofficial/libs.html)
 
 ## Help
