@@ -1,5 +1,5 @@
 ## About
-sigma.js is a powerful [node.js](https://nodejs.org) module that allows you to interact with the
+sts-discordjs is a powerful [node.js](https://nodejs.org) module that allows you to interact with the
 [Discord API](https://discordapp.com/developers/docs/intro) very easily.
 
 - Object-oriented
@@ -11,7 +11,7 @@ sigma.js is a powerful [node.js](https://nodejs.org) module that allows you to i
 **Node.js 6.0.0 or newer is required.**  
 Ignore any warnings about unmet peer dependencies, as they're all optional.
 
-Without voice support: `npm install sigma.js`  
+Without voice support: `npm install sts-discordjs`  
 
 ### Optional packages
 - [bufferutil](https://www.npmjs.com/package/bufferutil) to greatly speed up the WebSocket when *not* using uws (`npm install bufferutil`)
@@ -22,7 +22,7 @@ Without voice support: `npm install sigma.js`
 
 ## Example usage
 ```js
-const Discord = require('sigma.js');
+const Discord = require('sts-discordjs');
 const client = new Discord.Client();
 
 client.on('ready', () => {
