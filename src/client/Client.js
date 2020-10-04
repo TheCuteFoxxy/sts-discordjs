@@ -13,6 +13,7 @@ const Collection = require('../util/Collection');
 const Presence = require('../structures/Presence').Presence;
 const ShardClientUtil = require('../sharding/ShardClientUtil');
 const VoiceBroadcast = require('./voice/VoiceBroadcast');
+const Intents = require('../util/Intents');
 
 /**
  * The main hub for interacting with the Discord API, and the starting point for any bot.
