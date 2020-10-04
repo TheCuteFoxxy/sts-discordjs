@@ -88,6 +88,8 @@ exports.WSCodes = {
   4004: 'Tried to identify with an invalid token',
   4010: 'Sharding data provided was invalid',
   4011: 'Shard would be on too many guilds if connected',
+  4013: 'INVALID_INTENTS',
+  4014: 'DISALLOWED_INTENTS',
 };
 
 exports.Errors = {
