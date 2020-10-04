@@ -16,6 +16,7 @@ module.exports = {
   EvaluatedPermissions: require('./util/Permissions'),
   MessageFlags: require('./util/MessageFlags'),
   Permissions: require('./util/Permissions'),
+  Intents: require('./util/Intents'),
   Snowflake: require('./util/Snowflake'),
   SnowflakeUtil: require('./util/Snowflake'),
   SystemChannelFlags: require('./util/SystemChannelFlags'),
