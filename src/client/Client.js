@@ -514,6 +514,9 @@ class Client extends EventEmitter {
    * @private
    */
   _validateOptions(options = this.options) { // eslint-disable-line complexity
+    if (typeof options.ws.intents !== 'undefined') {
+      options.ws.intents = Intents.resolve(options.ws.intents);
+    }
     if (typeof options.shardCount !== 'number' || isNaN(options.shardCount)) {
       throw new TypeError('The shardCount option must be a number.');
     }
